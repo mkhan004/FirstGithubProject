@@ -5,7 +5,7 @@ public class Teacher{
 
         System.out.println("Hello Student!");
 	System.out.println("Hello Student!");
-
+	System.out.println("Hello Someone!");
 
     }
 
