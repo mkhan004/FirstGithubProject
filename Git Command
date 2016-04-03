@@ -30,10 +30,10 @@
 		git config user.email
 
 	4. Add/Change git User Name in command line
-		git config --global user.name
+		git config --global user.name <your name>
 
 	5. Add/Change git User Email in command line
-		git config --global user.email
+		git config --global user.email <your email>
 
 	6. View my change in command line
 		git diff
