@@ -5,6 +5,8 @@ public class AlamGitPractice{
 
    	System.out.println(getSameName(20));
 
+   	System.out.println("Hello World");
+
     }
    
 }
