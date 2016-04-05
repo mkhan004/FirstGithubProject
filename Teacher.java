@@ -9,6 +9,9 @@ public class Teacher{
         System.out.println("Hi! Teacher");
         System.out.println("Hello New York");
         System.out.println("This is a Computer");
+        System.out.println("How are you?");
+        System.out.println("Bangladesh");
+        System.out.println("Jamaica");
     }
 
 
