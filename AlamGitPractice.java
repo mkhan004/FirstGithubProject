@@ -7,11 +7,10 @@ public class AlamGitPractice{
 
    	System.out.println("Hello World");
 
-   	System.out.println("2nd time")
-
+   	
     }
-   
-}
+   }
+
 
 public static int getSameName(int num){
 

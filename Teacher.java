@@ -19,6 +19,13 @@ public class Teacher{
 	System.out.println(Tapu Tania);
 
 	System.out.println(Shermin Jaman);
+
+	for(int i=0;i<=100;i++){
+
+	if(i % 2==0)
+	System.out.println(i);
+}
+
 }
 }
 
