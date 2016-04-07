@@ -12,6 +12,8 @@ public class Teacher{
         System.out.println("How are you?");
         System.out.println("Bangladesh");
         System.out.println("Jamaica");
+        System.out.println("Good morning");
+        
     }
 
 
