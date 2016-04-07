@@ -1,0 +1,48 @@
+
+// Clone a new project
+	git clone <git projetc link>
+
+// Setps for pushing new change
+
+	1. Pull new Change
+		git pull
+
+	2. Add changed/modified files
+		git add <file names>
+		or
+		git add *
+
+	3. Add commit message
+		git commit -m "Change summary message"
+
+	4. Push New Change
+		git push
+
+// Other git command
+
+	1. Check any change status
+		git status
+
+	2. View git User Name in command line
+		git config user.name
+
+	3. View git User Email in command line
+		git config user.email
+
+	4. Add/Change git User Name in command line
+		git config --global user.name <your name> --add
+
+	5. Add/Change git User Email in command line
+		git config --global user.email <your email>
+
+	6. View my change in command line
+		git diff
+
+	
+
+
+
+
+
+
+
