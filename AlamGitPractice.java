@@ -7,6 +7,10 @@ public class AlamGitPractice{
 
    	System.out.println("Hello World");
 
+   	System.out.println("QA Practice")
+
+   	System.out.println("Git Hub Practice");
+
    	
     }
    }
