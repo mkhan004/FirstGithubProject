@@ -12,9 +12,9 @@ public class Teacher{
 	System.out.println("Mohammed Idris");
 
 	System.out.println("MD ALAM");
-	System.out.println("elit toutorial")
-        System.out.println(“mohammed idris”);
-        
+	System.out.println("elit toutorial");
+        System.out.println("mohammed idris");
+        System.out.println("Welcome");        
 
 }
 
