@@ -2,9 +2,11 @@
 ```01. Call WAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 200 and response contain data from Biz level config.
   * method: GET
   * path: productconfig/WAYNEENTERPRISES/PRE-C/SAT/SATSGT```
+
 ```02. Call InvalidWAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 404 and response contain proper error message.
   * method: GET
   * path: productconfig/InvalidWAYNEENTERPRISES/PRE-C/SAT/SATSGT```
+
 ```03. Call WAYNEENTERPRISES/NURSING/NCLEX/NCLEXP and make sure response code is 200 and response contain marged content from both Biz and Sbu level config.
   * method: GET
   * path: productconfig/WAYNEENTERPRISES/NURSING/NCLEX/NCLEXP```
