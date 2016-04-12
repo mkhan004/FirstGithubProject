@@ -1,7 +1,7 @@
 # Test Cases
-`01. Call WAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 200 and response contain data from Biz level config.
+```01. Call WAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 200 and response contain data from Biz level config.
 ..* method: GET
-..* path: productconfig/WAYNEENTERPRISES/PRE-C/SAT/SATSGT`
+..* path: productconfig/WAYNEENTERPRISES/PRE-C/SAT/SATSGT```
 ```02. Call InvalidWAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 404 and response contain proper error message.
 ..* method: GET
 ..* path: productconfig/InvalidWAYNEENTERPRISES/PRE-C/SAT/SATSGT```
@@ -65,3 +65,20 @@
 ```21. Call WAYNEENTERPRISES/GRADM3/GRADMP/InvalidGRADMPROD and make sure response code is 200 and response contain content only from Biz, Sbu and program level config.
 ..* method: GET
 ..* path: productconfig/WAYNEENTERPRISES/GRADM3/GRADMP/InvalidGRADMPROD```
+
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
+
+⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
