@@ -1,8 +1,8 @@
 # Test Cases
 ```
-<p>01. Call WAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 200 and response contain data from Biz level config.
+01. Call WAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 200 and response contain data from Biz level config.
   * method: GET
-  * path: productconfig/WAYNEENTERPRISES/PRE-C/SAT/SATSGT</p>
+  * path: productconfig/WAYNEENTERPRISES/PRE-C/SAT/SATSGT
 ```
 ```02. Call InvalidWAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 404 and response contain proper error message.
   * method: GET
@@ -11,9 +11,11 @@
 ```03. Call WAYNEENTERPRISES/NURSING/NCLEX/NCLEXP and make sure response code is 200 and response contain marged content from both Biz and Sbu level config.
   * method: GET
   * path: productconfig/WAYNEENTERPRISES/NURSING/NCLEX/NCLEXP```
-```04. Call WANEENTERPRISES/InvalidNURSING/NCLEX/NCLEXP and make sure response code is 200 and response contain content only from Biz level config.
+```
+04. Call WANEENTERPRISES/InvalidNURSING/NCLEX/NCLEXP and make sure response code is 200 and response contain content only from Biz level config.
   * method: GET
-  * path: productconfig/WAYNEENTERPRISES/InvalidNURSING/NCLEX/NCLEXP```
+  * path: productconfig/WAYNEENTERPRISES/InvalidNURSING/NCLEX/NCLEXP
+```
 ```05. Call WAYNEENTERPRISES/K12/K12PRECO/KSPSATKT and make sure response code is 200 and response contain overwrite array content from Program level config.
   * method: GET
   * path: productconfig/WAYNEENTERPRISES/K12/K12PRECO/KSPSATKT```
