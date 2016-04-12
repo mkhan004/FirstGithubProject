@@ -4,9 +4,9 @@
 
   * method: GET
   * path: productconfig/WAYNEENTERPRISES/PRE-C/SAT/SATSGT
-```
+
 02. Call InvalidWAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 404 and response contain proper error message.
- ```
+
   * method: GET
   * path: productconfig/InvalidWAYNEENTERPRISES/PRE-C/SAT/SATSGT
  ```
