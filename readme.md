@@ -1,6 +1,7 @@
 # Test Cases
-01. Call WAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 200 and response contain data from Biz level config.
 ```
+01. Call WAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 200 and response contain data from Biz level config.
+
   * method: GET
   * path: productconfig/WAYNEENTERPRISES/PRE-C/SAT/SATSGT
 ```
