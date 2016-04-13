@@ -5,15 +5,12 @@ public class AlamGitPractice{
 
    	System.out.println(getSameName(20));
 
-   	System.out.println("Hello World");
-
-   	System.out.println("QA Practice")
-
-   	System.out.println("Git Hub Practice");
+    System.out.println(getSum(20,30));
 
    	
+   	
     }
-   }
+   
 
 
 public static int getSameName(int num){
@@ -23,4 +20,19 @@ public static int getSameName(int num){
     samenum = num;
 
 	return samenum;
+
+}
+
+public static int getSum(int numOne, int numTwo){
+
+sum = numOne + numTwo;
+
+return sum;
+
+}
+
+
+
+  
+
 }
