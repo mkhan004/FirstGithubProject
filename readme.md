@@ -1,4 +1,22 @@
-# Test Cases
+# Product Config API
+## Business Rules
+
+  ```
+{
+  "1": "This is first rule.",
+  "2": "It is another rule."
+}
+  ```
+## To Run
+
+  ```
+{
+  "1": "npm install -g jasmine-node",
+  "2": "npm install",
+  "3": "jasmine-node . --config folder productConfig"
+}
+  ```
+## Automated Test Cases
 01. Call WAYNEENTERPRISES/PRE-C/SAT/SATSGT and make sure response code is 200 and response contain data from Biz level config.
 
  ```
