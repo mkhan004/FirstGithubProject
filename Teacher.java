@@ -16,6 +16,7 @@ public class Teacher{
         System.out.println("mohammed idris");
         System.out.println("Welcome");        
         System.out.println("Good Evening");
+	Syatem.out.ptintln(2343534);
 }
 
 
