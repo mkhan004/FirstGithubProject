@@ -5,7 +5,7 @@ public class Student {
         System.out.println("Hello NewYork");
         System.out.println("Nadia");
 
-        System.ou.println("alam change");
+        System.out.println("alam change");
   }
 
 }
