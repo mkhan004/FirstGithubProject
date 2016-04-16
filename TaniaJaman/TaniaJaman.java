@@ -2,6 +2,8 @@ public class TaniaJaman {
     
 	public static void main(String[] args) {
 		String text = "My name is Shamima";
+          System.out.println("This is my computer");
+
 		System.out.println(getSubString(text));
 	}
 
