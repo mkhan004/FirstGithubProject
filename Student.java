@@ -4,6 +4,7 @@ public class Student {
         System.out.println("Dewan Sultana");
         System.out.println("Hello NewYork");
         System.out.println("Nadia");
+        System.out.println("Fatiha");
   }
 
 }
