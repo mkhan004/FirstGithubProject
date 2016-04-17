@@ -6,6 +6,8 @@ public class Student {
         System.out.println("Nadia");
 
         System.out.println("alam change");
+
+        System.out.println("my change")
   }
 
 }
