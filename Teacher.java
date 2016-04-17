@@ -12,6 +12,7 @@
 	System.out.println("Mohammed Idris");
 
 	System.out.println("MD ALAM");
+<<<<<<< HEAD
 	System.out.println("Elite Tutorial");
 	System.out.println("Hello World");
         System.out.println("Hi every one");
@@ -26,10 +27,16 @@
 	System.out.println(i);
         System.out.println("Shermin Aktar Tania");
 
+=======
+	System.out.println("elit toutorial");
+        System.out.println("mohammed idris");
+        System.out.println("Welcome");        
+        System.out.println("Good Evening");
+	Syatem.out.ptintln(2343534);
+>>>>>>> 97b432a04ba25cffaf49a7437fae3f235e665ed5
 }
 
-}
+
 }
 
 
-}
