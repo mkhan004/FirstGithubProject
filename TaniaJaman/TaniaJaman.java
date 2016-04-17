@@ -14,6 +14,13 @@ public class TaniaJaman {
 
 		return newText;
 	}
+        public static int getSquer(int number) {
+		int result = 0;
+		for (int i = 0; i <= number; i++) {
+			result = i * i;
+		}
 
+		return result;
+	}
 }
 
