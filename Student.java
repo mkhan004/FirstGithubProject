@@ -9,7 +9,7 @@ public class Student {
         System.out.println("20*20");
         System.out.println("Hasan");
         System.out.println(400+266);
-
+        System.out.println("20 +20");
   }
 
 }
