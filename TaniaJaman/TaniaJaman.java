@@ -2,6 +2,8 @@ public class TaniaJaman {
     
 	public static void main(String[] args) {
 		String text = "My name is Shamima";
+          System.out.println("This is my computer");
+
 		System.out.println(getSubString(text));
 	}
 
@@ -14,6 +16,13 @@ public class TaniaJaman {
 
 		return newText;
 	}
+        public static int getSquer(int number) {
+		int result = 0;
+		for (int i = 0; i <= number; i++) {
+			result = i * i;
+		}
 
+		return result;
+	}
 }
 

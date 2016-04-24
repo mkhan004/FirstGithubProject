@@ -10,6 +10,9 @@ public class Student {
         System.out.println("Hasan");
         System.out.println(400+266);
 
+        System.out.println("alam change");
+
+        System.out.println("my change");
   }
 
 }
