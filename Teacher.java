@@ -33,6 +33,9 @@
         System.out.println("Good Evening");
         System.out.println("10+10");
 	Syatem.out.ptintln(2343534);
+
+	System.out.println("Something");
+
 }
 
 
