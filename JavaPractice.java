@@ -2,7 +2,7 @@ public class JavaPractice {
     public static void main(String []args){
 
 
-       String  text = "This is my MacBook Pro";
+       String  text = "This is my pen";
     
 
 
