@@ -19,4 +19,16 @@ public class Abedin{
 		}
 		return maxValue;
 	}
+
+	*/If age is more than 21 then print "You can buy beer."
+	else "You are underage.";
+
+	public static void printStatement(int age){
+		if(age>=21){
+			System.out.println("You can buy beer.")
+		}else{
+			System.out.println("You are underage.")
+		}
+	}
+
 }
