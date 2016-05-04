@@ -31,4 +31,17 @@ public class Abedin{
 		}
 	}
 
+	*/ How to find out Even and Odd number by for loop
+	and ifelsecondition?
+
+	public static void printEvenAndOddNumber(int number){
+		for(int i=1; i<number; i++){
+			if(i%2==0){
+				System.out.Println("Even number:" +i)
+			}else{
+				System.out.println("Odd number:" +i)
+			}
+		}
+	}
+
 }
