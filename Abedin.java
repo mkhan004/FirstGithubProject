@@ -44,4 +44,27 @@ public class Abedin{
 		}
 	}
 
+	*/ Print Number: 0, 3, 6, 9, 12, 15,18.
+	public static void printNumbe(int number){
+		for(int i=0; i<=number; i=i+3){
+			if(i==number){
+				System.out.println(i + ".")
+
+			}else{
+				System.out.println(i + ",")
+			}
+		}
+	}
+
+		How to convert Array to ArrayList?
+		public static ArrayList<Integer> getArrayToList(int[] numArray){
+			ArrayList<Integer> numList = new ArrayList<Integer>();
+			for(int i=0; i<numArray.length; i++){
+				numList.add(numArray[i]);
+			}
+			return numlist;
+
+		}
+	
+
 }
