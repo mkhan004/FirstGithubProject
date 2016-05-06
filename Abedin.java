@@ -65,6 +65,21 @@ public class Abedin{
 			return numlist;
 
 		}
+
+		*/ How to Convert ArrayList to Array?
+
+		public static int[] convetArraylistToArray(ArrayList<Integer> numList){
+			int[] numArray = new int[numList.size()];
+			for(int i=0; i<numList.size(); i++){
+				numArray[i] = numList.get(i);
+			}
+			return numArray;
+		}
+		*/ How to Sort an Array?
+		public static int[] getSortedArray(int[] numArray){
+			Arrays.sort(numArray);
+			return numArray;
+		}
 	
 
 }
