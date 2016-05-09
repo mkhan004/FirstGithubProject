@@ -80,6 +80,16 @@ public class Abedin{
 			Arrays.sort(numArray);
 			return numArray;
 		}
+
+		*/ How to find out length for a text?
+		public static int getLength(String text){
+			return text.length;
+		}
+
+		*/Input one number then return result add with 30?
+		public static int getResult(int number){
+			return result+30;
+		}
 	
 
 }
