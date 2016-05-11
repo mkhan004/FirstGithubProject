@@ -90,6 +90,32 @@ public class Abedin{
 		public static int getResult(int number){
 			return result+30;
 		}
+
+		*/ How to sort a List?
+
+		public static ArrayList<Integer> getSortedList(ArrayList<Integer> list){
+			Collections.sort(list)
+			return list;
+		}
+
+		*/ How can you double an Array?
+
+		public static int[] getDoubleArray(int [] x){
+			for(int i=0; i<x.length; i++){
+				x[i] = x[i]*2;
+			}
+			return x;
+		}
+
+		*/ How to find out sum for given number?
+
+		public static int getSum(int number){
+			int sum = 0;
+			for( int i=1; i<=number; i++){
+				sum+=i;
+			}
+			return sum;
+		}
 	
 
 }
