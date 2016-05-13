@@ -94,7 +94,7 @@ public class Abedin{
 		*/ How to sort a List?
 
 		public static ArrayList<Integer> getSortedList(ArrayList<Integer> list){
-			Collections.sort(list)
+			Collections.sort(list);
 			return list;
 		}
 
@@ -115,6 +115,27 @@ public class Abedin{
 				sum+=i;
 			}
 			return sum;
+		}
+
+		How to convert Mile to Kilomiter?
+
+		public static double getMiToKm(double mile){
+			double kilomiter = mile*1.6;
+			return kilomiter;
+		}
+
+		How to convert Integer to String?
+
+		public static String convertIntegerToString(int number){
+			String number = String.valueOf(number);
+			return number;
+		}
+
+		How to convert String to Integer?
+
+		public static int convertStringToInteger(String number){
+			int number = Integer.parseInt(number);
+			return number;
 		}
 	
 
