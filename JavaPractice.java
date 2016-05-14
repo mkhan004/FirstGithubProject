@@ -2,7 +2,8 @@ public class JavaPractice {
     public static void main(String []args){
 
 
-       String  text = "This is my pen";
+       String  text = "This is my pencil";
+       System.out.println(getAllWord);
     
 
 
