@@ -2,7 +2,7 @@ public class JavaPractice {
     public static void main(String []args){
 
 
-       String  text = "This is my pencil";
+       String  text = "This is my Phone";
        System.out.println(getAllWord);
     
 
