@@ -1,6 +1,6 @@
 public class MethodPractice {
    public static void main(String[]args){
-       String[]  nameArray = new String[8];
+       String[]  nameArray = new String[10];
        nameArray[0] = "Nadia";
        nameArray[3] = "Ruhul";
        nameArray[5] = "Najiat";
