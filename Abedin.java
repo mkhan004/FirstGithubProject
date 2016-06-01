@@ -144,11 +144,21 @@ public class Abedin{
 		public static int getCharacterWithoutWhitespace(String text){
 			int count = 0;
 			for(int i=0; i<text.length; i++){
-				if(text.toLowerCase.charAt(i)!=' '){
+				if(text.toLowerCase().charAt(i)!=' '){
 					count++;
 				}
 			}
 			return count;
+		}
+
+		Write a method that take one String input & return true if it contains char'a' Otherwise return false.
+
+		public static boolean getContainsDicision(String option){
+			if(option.toLowerCase().contains('a')){
+				return true;
+			}else{
+				return false;
+			}
 		}
 	
 
