@@ -1,3 +1,4 @@
+ls
 public class Abedin{
 
 	int[] array = {5, 10, 15, 20};
@@ -136,6 +137,18 @@ public class Abedin{
 		public static int convertStringToInteger(String number){
 			int number = Integer.parseInt(number);
 			return number;
+		}
+
+		Write a method that take one string input & return the count of characters without whitespace.
+
+		public static int getCharacterWithoutWhitespace(String text){
+			int count = 0;
+			for(int i=0; i<text.length; i++){
+				if(text.toLowerCase.charAt(i)!=' '){
+					count++;
+				}
+			}
+			return count;
 		}
 	
 
