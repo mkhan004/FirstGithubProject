@@ -160,6 +160,30 @@ public class Abedin{
 				return false;
 			}
 		}
+
+		Write a method that take one String input and return the count of all vowels.
+
+		public static int getVowelCount(String text){
+			int count = 0;
+			String [] vowels = {"a", "e", "i", "o", "u"};
+			for(int i=0; i<text.length; i++){
+				if(vowelCheck(vowels, String.valueOf(text.charAt(i)))){
+					count++;
+				}
+			}
+		}
+
+		public static boolean vowelCheck(String[] vowels, String character){
+			for(int i=0; i<vowels.length; i++){
+				if(vowels[i]).equalsIgnorCase(character)){
+
+                   return true;
+
+            }
+
+			}
+			return false;
+		}
 	
 
 }
