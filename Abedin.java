@@ -171,6 +171,7 @@ public class Abedin{
 					count++;
 				}
 			}
+			return count;
 		}
 
 		public static boolean vowelCheck(String[] vowels, String character){
@@ -184,6 +185,35 @@ public class Abedin{
 			}
 			return false;
 		}
+		How to find out repeated character in a text?
+
+		public static List<Object> getRepeatedCharList(String test){
+
+			String newText = text.toLowerCase;
+
+			List<Object> list = new ArrayList<Object>();
+
+			for(int i=0; i<newText.length; i++){
+
+				for(int j=1+j; j<newText.length; j++){
+
+					String firstLetter=String.valueOf(newText.charAt(i));
+					String secondLetter=String.valueOf(newText.charAt(j));
+					if(firstLetter.equalsIgnorCase(secondLetter)){
+						if(!firstLetter.equals(" ") && !list.contains(firstLetter)){
+							list.add(firstLetter);
+						}
+					}
+
+				}
+			}
+
+			Object [] array =list.toArray();
+			Arrays.sort(array);
+			list = Arays.asList(array);
+			return list;
+		}
+
 	
 
 }
