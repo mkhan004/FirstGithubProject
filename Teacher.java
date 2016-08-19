@@ -2,11 +2,11 @@
 
     public static void main(String[] args){
     
-    System.out.println("Hello Student!");
-    System.out.println("Hello Friend!");
+        System.out.println("Hello Student!");
+        System.out.println("Hello Friend!");
 	System.out.println("Hello Student!");
 	System.out.println("Hello New York!");
-    System.out.println("Hi! Teacher");
+        System.out.println("Hi! Teacher");
  	System.out.println("Hello Someone!");
 	System.out.println("Bangladesh");
 	System.out.println("Mohammed Idris");
@@ -15,7 +15,7 @@
 
 	System.out.println("Elite Tutorial");
 	System.out.println("Hello World");
-        System.out.println("Hi every one");
+        System.out.println("Hello every one");
 
 	System.out.println("Tapu Tania");
 
