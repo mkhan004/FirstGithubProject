@@ -1,15 +1,28 @@
-public class NewWorld{
+ public class NewWorld{
 
     public static void main(String[] args) {
-   System.out.println("This is a computer");
-   System.out.println(getLowerCase("This is a String"));
-	}
-	public static String getLowerCase(String text){
-		
-		return text.toLowerCase();
-	}
-
+      
+        String text ="This is a new String  And That is a method .";
+   System.out.println(getWordCount(text, "is"));	
 }
+public static int getWordCount(String text, String word) {
+
+		int count = 0;
+		String[] wordArray = text.split(" ");
+
+		for (int i = 0; i < wordArray.length; i++) {
+			if (wordArray[i].equalsIgnoreCase(word)) {
+
+				count ++;
+
+			}
+		}
+
+		return count;
+
+	}}
+
+
 
 
 
