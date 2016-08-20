@@ -1,9 +1,12 @@
+
  public class NewWorld{
 
     public static void main(String[] args) {
       
         String text ="This is a new String  And That is a method .";
-   System.out.println(getWordCount(text, "is"));	
+       System.out.println(getWordCount(text, "is"));	
+      System.out.println("This is a Computer");  
+
 }
 public static int getWordCount(String text, String word) {
 
@@ -20,7 +23,9 @@ public static int getWordCount(String text, String word) {
 
 		return count;
 
-	}}
+}
+	}
+
 
 
 
