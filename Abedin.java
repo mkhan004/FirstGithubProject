@@ -8,6 +8,7 @@ public class Abedin{
 		Systen.out.println(50);
 		System.out.println(array);
 		System.out.println(60);
+		System.out.print(80);
 	}
 	// How to findout maximum value from an Array.
 	public static int maximumValue(int[] array){
