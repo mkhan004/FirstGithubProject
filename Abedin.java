@@ -9,6 +9,7 @@ public class Abedin{
 		System.out.println(array);
 		System.out.println(60);
 		System.out.print(80);
+		System.out.print(10);
 	}
 	// How to findout maximum value from an Array.
 	public static int maximumValue(int[] array){
@@ -30,6 +31,7 @@ public class Abedin{
 			System.out.println("You can buy beer.")
 		}else{
 			System.out.println("You are underage.")
+			System.out.println("You cannot buy haram items.")
 		}
 	}
 
